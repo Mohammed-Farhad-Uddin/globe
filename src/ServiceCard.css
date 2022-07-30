@@ -1,0 +1,26 @@
+.service-card {
+    background: white;
+    height: 550px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.service-card h5 {
+    color: #2397CD;
+    margin: 10px 0px;
+}
+.service-card p {
+    color: #000633;
+    margin: 10px 0px;
+}
+
+.more-btn {
+    background: #2397CD;
+    border-radius: 10px;
+    padding: 5px 40px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+

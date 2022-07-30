@@ -1,0 +1,289 @@
+.home {
+    background-image: linear-gradient(to right, rgb(9, 1, 32), rgb(27, 36, 90));
+}
+
+.active {
+    color: #D7F561;
+}
+
+.color {
+    color: #8FE5FF;
+}
+
+.color:hover {
+    color: #D7F561;
+    cursor: pointer;
+}
+
+.color:hover .active {
+    color: #8FE5FF;
+}
+
+.spanBox-one {
+    width: 249px;
+    height: 72px;
+    background: linear-gradient(265.22deg, #DEF77D 0%, #D0F344 100%);
+    box-shadow: inset -8px -8px 16px #B6CC63, inset 8px 8px 16px rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 50px 0px;
+}
+
+.spanBox-two {
+    box-sizing: border-box;
+    width: 249px;
+    height: 72px;
+    border: 2px solid #8FE5FF;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #8FE5FF;
+}
+
+.details {
+    width: 419px;
+    height: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 152%;
+    text-align: justify;
+    color: #2EBBE5;
+}
+
+.details span {
+    color: #D7F561;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    width: 438px;
+    height: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    color: #28ACE2;
+}
+
+h1 span {
+    color: #D7F561;
+}
+
+.shuttle {
+    height: 35px;
+}
+
+hr {
+    width: 40px;
+    height: 0px;
+    border: 1px solid #28ACE2;
+    transform: rotate(180deg);
+    margin: 2px 0px;
+}
+
+.space-jet:hover {
+    animation-name: space-shuttle;
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes space-shuttle {
+    100% {
+        position: relative;
+        left: 320px;
+    }
+}
+
+.line-1 {
+    position: relative;
+    border: 1px solid #C2F1FF;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.line-2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 1px solid #C2F1FF;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.line-3 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 1px solid #C2F1FF;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.line-4 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-image: linear-gradient(to right, #DEF77D, #D0F344);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.cir-1 {
+    position: relative;
+    background-image: linear-gradient(to right, #C2F1FF, #5CD9FF);
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    top: -210px;
+    left: -70px;
+}
+
+.cir-2 {
+    position: relative;
+    background-image: linear-gradient(to right, #C2F1FF, #5CD9FF);
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    top: 230px;
+    left: 20px;
+}
+
+.cir-3 {
+    position: relative;
+    background-image: linear-gradient(to right, #C2F1FF, #5CD9FF);
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    left: 160px;
+    top: -200px;
+}
+
+.cir-4 {
+    position: relative;
+    background-image: linear-gradient(to right, #C2F1FF, #5CD9FF);
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    left: 220px;
+    top: 0px;
+}
+
+.cir-5 {
+    position: relative;
+    background-image: linear-gradient(to right, #C2F1FF, #5CD9FF);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    top: -181px;
+    left: -82px;
+}
+
+.cir-6 {
+    position: relative;
+    background-image: linear-gradient(to right, #C2F1FF, #5CD9FF);
+    border-radius: 50%;
+    height: 57px;
+    width: 57px;
+    top: -40px;
+    left: -90px;
+}
+
+
+.circle:hover .cir-1 {
+    animation-name: move1;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move1 {
+    100% {
+        top: -160px;
+        left: 195px;
+    }
+}
+
+.circle:hover .cir-2 {
+    animation-name: move2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move2 {
+    100% {
+        top: 90px;
+        left: -190px;
+    }
+}
+
+.circle:hover .cir-3 {
+    animation-name: move3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move3 {
+    100% {
+        top: -243px;
+        left: 0px;
+    }
+}
+
+.circle:hover .cir-4 {
+    animation-name: move4;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move4 {
+    100% {
+        top: 115px;
+        left: 80px;
+    }
+}
+
+.circle:hover .cir-5 {
+    animation-name: move5;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move5 {
+    100% {
+        top: -185px;
+        left: 163px;
+    }
+}
+
+.circle:hover .cir-6 {
+    animation-name: move6;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move6 {
+    100% {
+        top: -210px;
+        left: -105px;
+    }
+}
